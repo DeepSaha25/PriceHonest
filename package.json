@@ -1,0 +1,22 @@
+{
+  "name": "pricehonest",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n \"server,web\" -c \"yellow,cyan\" \"npm run dev:server\" \"npm run dev:web\"",
+    "dev:server": "npm run dev --workspace=apps/server",
+    "dev:web": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspace=apps/server && npm run build --workspace=apps/web",
+    "test": "npm test --workspace=apps/server",
+    "format": "prettier --write .",
+    "install:all": "npm install"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "concurrently": "^10.0.5",
+    "prettier": "^3.9.9"
+  }
+}

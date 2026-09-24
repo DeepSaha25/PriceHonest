@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+*.env.local
+.DS_Store
+Thumbs.db
+*.log
+.vite/
+.data/
+playwright-report/
+test-results/
+artifacts/
+*.tsbuildinfo
+*.mp4
+frame_*.jpg
+session-*.md
+rebuild_commits.ps1
