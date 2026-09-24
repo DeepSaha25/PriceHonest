@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "title": "Inspect the restored check-deal flow and identify safe feature insertion points",
+      "status": "done"
+    },
+    {
+      "title": "Add decision-support features without changing the existing visual language",
+      "status": "in-progress"
+    },
+    {
+      "title": "Build and test the enhanced check-deal experience",
+      "status": "pending"
+    }
+  ],
+  "updated_at": "2026-10-01T09:23:40.497Z",
+  "session_id": "01a0f622-2c15-7026-9654-0c52baa4de2f"
+}
