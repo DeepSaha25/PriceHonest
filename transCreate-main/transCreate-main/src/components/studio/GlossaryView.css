@@ -1,0 +1,100 @@
+/* ── Empty / Loading ── */
+.glossary-empty,
+.glossary-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-3);
+  padding: var(--sp-12);
+  color: var(--text-faint);
+  text-align: center;
+}
+
+.glossary-empty p,
+.glossary-loading p {
+  font-size: var(--text-sm);
+  max-width: 320px;
+}
+
+/* ── Entries ── */
+.glossary-entries {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+.glossary-entry {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-xl);
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all var(--t-base);
+}
+
+.glossary-entry:hover {
+  transform: translateY(-2px);
+  border-color: var(--border-strong);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.glossary-entry__header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: var(--sp-4) var(--sp-5);
+  background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  border-left: 4px solid var(--accent);
+}
+
+.glossary-entry__term {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+}
+
+.glossary-entry__meaning {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.glossary-entry__adaptations {
+  padding: var(--sp-3) var(--sp-5);
+}
+
+.glossary-adaptation {
+  display: grid;
+  grid-template-columns: 140px 1.5fr 2fr;
+  gap: var(--sp-4);
+  padding: var(--sp-3) 0;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  font-size: var(--text-sm);
+  align-items: baseline;
+}
+
+.glossary-adaptation:last-child {
+  border-bottom: none;
+}
+
+.glossary-adaptation__culture {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-faint);
+}
+
+.glossary-adaptation__adapted {
+  color: var(--accent-light);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.glossary-adaptation__explanation {
+  color: var(--text-muted);
+  line-height: 1.5;
+}
