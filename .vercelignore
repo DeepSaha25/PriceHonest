@@ -1,0 +1,9 @@
+.git
+node_modules
+*.log
+artifacts
+__agent__
+transCreate-main
+*.txt
+playwright-report
+test-results
