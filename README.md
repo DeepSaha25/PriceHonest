@@ -4,12 +4,21 @@
 > *An evidence-first price investigation and deal verification workspace built for Indian shoppers.*  
 > **Submitted to SerpApi India Hackathon 2026 🇮🇳**
 
+[![Live Demo](https://img.shields.io/badge/Demo-pricehonest.vercel.app-brightgreen?style=flat-square&logo=vercel)](https://pricehonest.vercel.app/)
+[![YouTube Demo](https://img.shields.io/badge/YouTube-Video_Walkthrough-red?style=flat-square&logo=youtube)](https://youtu.be/ZruTcO9Xk6k)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)](https://expressjs.com/)
 [![SerpApi](https://img.shields.io/badge/Powered_by-SerpApi-blue?style=flat-square)](https://serpapi.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+
+---
+
+## 🔗 Quick Links
+
+* 🌐 **Live Web Application:** [https://pricehonest.vercel.app/](https://pricehonest.vercel.app/)
+* 🎥 **YouTube Video Walkthrough:** [https://youtu.be/ZruTcO9Xk6k](https://youtu.be/ZruTcO9Xk6k)
 
 ---
 
@@ -179,6 +188,9 @@ npm run format
 
 The repository is pre-configured for seamless single-click deployment on **Vercel** via [vercel.json](file:///Users/deepsaha/Documents/projects/PriceHonest/vercel.json):
 
+* **Live Deployment:** [https://pricehonest.vercel.app/](https://pricehonest.vercel.app/)
+
+To deploy your own instance:
 1. Import your GitHub repository into Vercel.
 2. Under **Project Settings → Environment Variables**, add:
    * `SERPAPI_KEY` = your SerpApi API key
