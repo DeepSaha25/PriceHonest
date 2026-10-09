@@ -6,6 +6,27 @@ PriceHonest is a product price comparison and deal investigation workspace for I
 
 This is not a prettier discount badge. It is a way to interrogate the claim behind one.
 
+---
+
+## Preview
+
+<p align="center">
+  <img src="assets/screenshots/01-landing-hero.jpg" alt="PriceHonest Landing Page" width="100%" />
+</p>
+
+| **Market Reality — Exposing Dark Patterns** | **Live Multi-Store Price Comparison** |
+|:---:|:---:|
+| <img src="assets/screenshots/02-market-reality.jpg" alt="Market Reality Problem Cards" width="100%" /> | <img src="assets/screenshots/03-live-deal-comparison.jpg" alt="Live Price Comparison" width="100%" /> |
+| *Identifies inflated MRPs, pre-sale spikes & hidden fees* | *Scans Amazon, Flipkart, Croma & Tata CLiQ in real time* |
+
+<p align="center">
+  <img src="assets/screenshots/04-market-analytics.jpg" alt="Market Analytics & Radar Chart" width="100%" />
+  <br />
+  <em>Store Price Comparison, Evidence Coverage Radar, and Price vs. Market Median Analytics</em>
+</p>
+
+---
+
 ## Why it is useful
 
 Retailers make the “original price” visually loud, while the market price stays hidden in other tabs. PriceHonest makes the comparison legible:
